@@ -7,5 +7,8 @@ public class ReemplazarSubcadenas {
         var cadena2 = cadena1.replace("Mundo", "a todos");
         System.out.println("cadena2 = " + cadena2);
 
+        //reemplazar subcadena hola por adios
+        cadena2 = cadena1.replace("Hola", "Adios");
+        System.out.println("cadena2 = " + cadena2);
     }
 }
